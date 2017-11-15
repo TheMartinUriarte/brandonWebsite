@@ -33,6 +33,19 @@ h6, .h6 {
   }
 }
 
+/*
+ * Trim Style
+ */
+ .bf-trim {
+   padding-top: 1%;
+   background-color: #D1A859;
+ }
+
+ @media (max-width: 767px) {
+   .bf-trim {
+     padding-top: 2%;
+   }
+ }
 
 /*
  * Masthead for nav
