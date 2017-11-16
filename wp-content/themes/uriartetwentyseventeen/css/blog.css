@@ -53,6 +53,14 @@ h6, .h6 {
 
 .blog-masthead {
   background-color: #428bca;
+  color: #a2a2a2;
+  font-family: 'Raleway';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
@@ -62,7 +70,7 @@ h6, .h6 {
   position: relative;
   display: inline-block;
   padding: 10px;
-  font-weight: 500;
+  font-weight: 800;
   color: #cdddeb;
 }
 .blog-nav-item:hover,
@@ -79,7 +87,7 @@ h6, .h6 {
 }
 
 .blog-nav li a {
-  color: #fff;
+  color: #000;
 }
 
 /* Active state gets a caret at the bottom */
@@ -100,6 +108,67 @@ h6, .h6 {
   border-left: 5px solid transparent;
 }
 
+.bf-nav-left,
+.bf-wrap-logo,
+.bf-nav-right {
+  display: table-cell;
+  vertical-align: middle;
+  width: 33.33%;
+}
+
+.bf-nav-menu {
+  padding-left: 0;
+  margin-right: 0;
+}
+
+.bf-wrap-logo {
+  padding: 0 50px;
+  margin: 0;
+  text-align: center;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.bf-wrap-logo > a {
+  display: inline-block;
+}
+
+#bf-nav-menu-left {
+  float: right;
+}
+
+#bf-nav-menu-right {
+  float: left;
+}
+
+#bf-menu-primary > ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+#bf-menu-primary > ul > li:first-child a {
+  margin-left: 0;
+}
+
+#bf-menu-primary > ul >li > a {
+  margin-right: 0;
+  line-height: 30px;
+  letter-spacing: 2px;
+  transition: all .2s ease 0s;
+	color: #1a1a1a;
+	line-height: 30px;
+	letter-spacing: 2px;
+	transition: all .2s ease 0s;
+  Display: inline-block;
+  float: left;
+  position: relative;
+}
 
 /*
  * Blog name and description

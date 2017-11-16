@@ -23,15 +23,38 @@
       <div class="blog-masthead">
         <div class="container">
           <nav class="blog-nav">
-            <a class="blog-nav-item active" href="#">Home</a>
-            <?php wp_list_pages( '&title_li=' ); ?>
+            <!-- <a class="blog-nav-item active" href="#">Home</a> -->
+            <div class="bf-nav-left" role="navigation">
+              <nav id="bf-menu-primary">
+                <ul id="bf-nav-menu-left" class="bf-nav-menu">
+                  <li class="blog-nav-item">
+                    <a href="./about/">About<p>Meet Brandon</p></a>
+                  </li>
+                  <li>
+                    <a href="./work/">Work<p>His Passion</p></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="bf-wrap-logo">
+              <a class="bf-site-logo" href="#">
+                <img src="../wp-content/uploads/2017/11/bfLogoDraft.png" alt="Brandon Frere Logo">
+              </a>
+            </div>
+            <div class="bf-nav-right" role="navigation">
+              <nav id="bf-menu-secondary">
+                <ul id="bf-nav-menu-right" class="bf-nav-menu">
+                  <li>
+                    <a href="./news/">News<p>The Latest in the Media</p></a>
+                  </li>
+                  <li>
+                    <a href="./contact/">Contact<p>Get in Touch</p></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </nav>
         </div>
       </div>
 
       <div class="container">
-
-        <div class="blog-header">
-          <h1 class="blog-title"><a href="<?php echo get_bloginfo( 'wpurl' ); ?>"><?php echo get_bloginfo( 'name' ); ?></h1>
-          <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
-        </div>
