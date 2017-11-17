@@ -20,7 +20,7 @@
     <body>
 
       <nav class="navbar navbar-white">
-        <div class="container-fluid bf-container">
+        <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -35,16 +35,16 @@
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
+          <div class="collapse navbar-collapse bf-container" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
               <li><a href="./about">About<p>Meet Brandon</p></a></li>
               <li><a href="./work">Work<p>His Passion</p></a></li>
             </ul>
             <a class="bf-site-logo" href="#">
               <img class="bf-logo" src="/brandonWebsite/wp-content/uploads/2017/11/bfLogoDraft.png" alt="Brandon Frere Logo">
             </a>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="./news">News<p>The Latest in the Media</p></a></li>
+            <ul class="nav navbar-nav">
+              <li><a href="./news">News<p>The Latest</p></a></li>
               <li><a href="./contact">Contact<p>Get in Touch</p></a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
