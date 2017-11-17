@@ -51,7 +51,7 @@ h6, .h6 {
  * Masthead for nav
  */
 
-.blog-masthead {
+/*.blog-masthead {
   background-color: #428bca;
   color: #a2a2a2;
   font-family: 'Raleway';
@@ -63,10 +63,10 @@ h6, .h6 {
   text-align: center;
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-}
+}*/
 
 /* Nav links */
-.blog-nav-item {
+/*.blog-nav-item {
   position: relative;
   display: inline-block;
   padding: 10px;
@@ -88,10 +88,10 @@ h6, .h6 {
 
 .blog-nav li a {
   color: #000;
-}
+}*/
 
 /* Active state gets a caret at the bottom */
-.blog-nav .active {
+/*.blog-nav .active {
   color: #fff;
 }
 .blog-nav .active:after {
@@ -168,6 +168,28 @@ img {
   Display: inline-block;
   float: left;
   position: relative;
+}*/
+
+.bf-site-logo {
+  height: 130px;
+  width: auto;
+}
+
+.navbar-white {
+  background-color: #fff;
+  border-color: #e7e7e7;
+}
+
+.navbar-white .navbar-toggle {
+  border-color: #DCBD84;
+}
+
+.navbar-white .navbar-toggle:hover {
+  background-color: #D0A75A;
+}
+
+.navbar-white .navbar-toggle .icon-bar {
+  background-color: #DCBD84;
 }
 
 /*
