@@ -170,9 +170,21 @@ img {
   position: relative;
 }*/
 
-.bf-site-logo {
+.bf-logo {
   height: 130px;
   width: auto;
+}
+
+@media (max-width: 767px) {
+  .bf-site-logo {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .bf-mobile-logo {
+    display: none;
+  }
 }
 
 .navbar-white {
@@ -191,6 +203,12 @@ img {
 .navbar-white .navbar-toggle .icon-bar {
   background-color: #DCBD84;
 }
+
+.bf-container {
+  text-align: center;
+  /*display: flex;*/
+}
+
 
 /*
  * Blog name and description
