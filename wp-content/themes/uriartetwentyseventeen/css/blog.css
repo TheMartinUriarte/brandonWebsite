@@ -274,6 +274,20 @@ li > a > p {
   background-color: inherit;
 }
 
+.bf-hero-image {
+  width:100%;
+  height:500px;
+  background: url('/brandonWebsite/wp-content/uploads/2017/11/fakeBrandonDraftImage.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  padding: 30px;
+}
+
+.bf-hero-saying {
+}
+
 /*
  * Blog name and description
  */
@@ -297,6 +311,16 @@ li > a > p {
 /*
  * Main column and sidebar layout
  */
+
+ .bf-intro {
+   text-align: center;
+   padding-top: 30px;
+ }
+
+ .bf-link {
+   text-decoration: underline;
+   color: #D0A75A;
+ }
 
 .blog-main {
   font-size: 18px;
